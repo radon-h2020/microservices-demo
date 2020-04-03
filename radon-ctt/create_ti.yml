@@ -1,0 +1,10 @@
+- name: Run SockShop
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: run JMeterAgent DockerContainer
+      docker_container:
+        name: JMeterAgent
+        image: ustctt/ctt-agent:jmeter
+        ports:
+          - "8080:9000"

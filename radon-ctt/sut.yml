@@ -8,7 +8,7 @@ node_types:
         operations:
           create:
             implementation:
-              primary: create.yml
+              primary: create_sut.yml
               dependencies:
                 - ../deploy/docker-compose/docker-compose.yml
     requirements:
