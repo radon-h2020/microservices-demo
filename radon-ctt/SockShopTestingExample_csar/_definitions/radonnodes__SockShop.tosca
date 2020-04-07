@@ -1,0 +1,21 @@
+tosca_definitions_version: tosca_simple_yaml_1_3
+
+node_types:
+  radon.nodes.radon.nodes.SockShop:
+    derived_from: tosca.nodes.SoftwareComponent
+    metadata:
+      targetNamespace: "radon.nodes"
+      abstract: "no"
+      final: "no"
+    interfaces:
+      Standard:
+        type: tosca.interfaces.node.lifecycle.Standard
+        operations:
+          create:
+            implementation:
+              primary: create
+              timeout: 0
+    artifacts:
+      create:
+        type: tosca.artifacts.Implementation.Ansible
+        file: nodetypes/radon.nodes/SockShop/files/create/create.yml

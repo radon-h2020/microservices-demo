@@ -1,0 +1,41 @@
+TOSCA-Meta-Version: 1.0
+CSAR-Version: 1.1
+Created-By: Winery 2.0.0-SNAPSHOT
+Entry-Definitions: _definitions/radonblueprints__SockShopTestingExample.tosca
+
+Name: _definitions/radonnodes__SockShop.tosca
+Content-Type: application/vnd.oasis.tosca.definitions
+
+Name: nodetypes/radon.nodes/Workstation/README.md
+Content-Type: text/plain
+
+Name: nodetypes/radon.nodes/Workstation/appearance/bigIcon.png
+Content-Type: image/png
+
+Name: nodetypes/radon.nodes/SockShop/README.md
+Content-Type: text/plain
+
+Name: nodetypes/radon.nodes/SockShop/appearance/smallIcon.png
+Content-Type: image/png
+
+Name: nodetypes/radon.nodes/Workstation/appearance/smallIcon.png
+Content-Type: image/png
+
+Name: _definitions/radonblueprints__SockShopTestingExample.tosca
+Content-Type: application/vnd.oasis.tosca.definitions
+
+Name: nodetypes/radon.nodes/SockShop/LICENSE
+Content-Type: text/plain
+
+Name: _definitions/radonnodes__Workstation.tosca
+Content-Type: application/vnd.oasis.tosca.definitions
+
+Name: nodetypes/radon.nodes/Workstation/LICENSE
+Content-Type: text/plain
+
+Name: nodetypes/radon.nodes/SockShop/appearance/bigIcon.png
+Content-Type: image/png
+
+Name: nodetypes/radon.nodes/SockShop/files/create/create.yml
+Content-Type: text/plain
+
