@@ -10,11 +10,27 @@ node_types:
             implementation:
               primary: create_sut.yml
               dependencies:
-                - ../deploy/docker-compose/docker-compose.yml
+                - docker-compose.yml
+          start:
+            implementation:
+              primary: start_sut.yml
+          configure:
+            implementation:
+              primary: configure_sut.yml
+          stop:
+            implementation:
+              primary: stop_sut.yml
+          delete:
+            implementation:
+              primary: delete_sut.yml
     requirements:
       - host:
           capability: tosca.capabilities.Compute
           relationship: tosca.relationships.HostedOn
+    attributes:
+      docker_compose_path:
+        type: string
+        description: Path to the docker_compose.yml used for deployment
 
 topology_template:
   node_templates:

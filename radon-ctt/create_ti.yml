@@ -2,6 +2,28 @@
   hosts: localhost
   gather_facts: no
   tasks:
+    - name: install pip module prerequisites
+      package:
+        name: 
+          - python3-pip
+          - python3-virtualenv
+          - python3-setuptools
+        state: present
+        when: ansible_distribution == "Ubuntu"
+
+    - name: install pip module prerequisites
+      package:
+        name: 
+          - python-pip
+          - python-virtualenv
+          - python-setuptools
+        state: present
+        when: ansible_distribution == "Arch Linux"
+
+    - name: install docker_container module prerequisites
+      pip:
+        name: docker-py
+
     - name: run JMeterAgent DockerContainer
       docker_container:
         name: JMeterAgent
