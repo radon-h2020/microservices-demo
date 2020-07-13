@@ -1,4 +1,4 @@
-# CTT Image Resize Demo
+# CTT SockShop Demo
 
 Repository used for the SockShop Demo of [RADON CTT](https://github.com/radon-h2020/radon-ctt). 
 
