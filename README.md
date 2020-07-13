@@ -1,3 +1,13 @@
+# CTT Image Resize Demo
+
+Repository used for the SockShop Demo of [RADON CTT](https://github.com/radon-h2020/radon-ctt). 
+
+For the Docker-based execution using the latest Docker containers, please follow the steps provided on https://continuous-testing-tool.readthedocs.io/.
+
+---
+---
+
+
 [![Build Status](https://travis-ci.org/microservices-demo/microservices-demo.svg?branch=master)](https://travis-ci.org/microservices-demo/microservices-demo)
 
 # Sock Shop : A Microservice Demo Application
