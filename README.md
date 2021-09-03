@@ -4,11 +4,15 @@ Repository used for the SockShop Demo of [RADON CTT](https://github.com/radon-h2
 
 For the Docker-based execution using the latest Docker containers, please follow the steps provided on https://continuous-testing-tool.readthedocs.io/.
 
----
----
+| Items | Contents |
+| --- | --- |
+| **Description** | A fork from the [official Sock Shop microservice demo application](https://github.com/microservices-demo/microservices-demo) to showcase the RADON tools. |
+| **Licence**| Apache License, Version 2.0: https://opensource.org/licenses/Apache-2.0 |
+| **Maintainers**| <ul><li>Thomas F. Düllmann ([@duelle](https://github.com/duelle)) </li><li>Andre van Hoorn ([@avanhoorn](https://github.com/avanhoorn)) </li></ul> |
 
 
-[![Build Status](https://travis-ci.org/microservices-demo/microservices-demo.svg?branch=master)](https://travis-ci.org/microservices-demo/microservices-demo)
+---
+
 
 # Sock Shop : A Microservice Demo Application
 
